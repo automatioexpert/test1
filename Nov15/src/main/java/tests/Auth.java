@@ -11,6 +11,7 @@ public class Auth {
 	
 	@Test
 	public void auth() {
+		System.out.println("I am the best");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
