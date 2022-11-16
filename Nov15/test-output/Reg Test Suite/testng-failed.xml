@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Reg Test Suite]">
+  <test thread-count="5" name="VV Test(failed)">
+    <parameter name="i" value="10c"/>
+    <parameter name="j" value="10"/>
+    <classes>
+      <class name="tests.TestNGParameterDemo">
+        <methods>
+          <include name="subtract"/>
+          <include name="add"/>
+        </methods>
+      </class> <!-- tests.TestNGParameterDemo -->
+    </classes>
+  </test> <!-- VV Test(failed) -->
+</suite> <!-- Failed suite [Reg Test Suite] -->
